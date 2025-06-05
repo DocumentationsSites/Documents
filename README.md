@@ -50,5 +50,3 @@ Website: Created by YourLocal-hub.
 - **Adding Documents**: Explains how users can add new documents to the dropdown.
 - **Join Our Discord Community**: Includes the invite link to your Discord server for further help and uploading.
 - **License & Credits**: Basic section to credit the project and include licensing details (if you have one).
-
-This should be a good start for a README to go along with your project! Let me know if you need anything else.
