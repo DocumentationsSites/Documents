@@ -30,9 +30,9 @@ Add an option to the dropdown in index.html with the path to your new document.
 4. Updating Documents:
 
 If you are using Rayfield, follow the guide in the Documents/Rayfield.html file to integrate it into your Roblox project.
-Join Our Discord Community
+## Join Our Discord Community
 
-To upload or share your website, or if you need any help, join our Discord Server for more details, support, and guidance.
+To upload or share your website, or if you need any help, join our [Discord Server](https://discord.gg/FyzMArawX3) for more details, support, and guidance.
 
 ## License
 
