@@ -6,8 +6,6 @@
     <meta name="description" content="Select Document Interface">
     <title>Select Document</title>
     <style>
-        /* styles.css */
-
         body {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
@@ -68,7 +66,6 @@
             text-decoration: underline;
         }
 
-        /* Responsive layout for small screens */
         @media screen and (max-width: 768px) {
             header {
                 padding: 1rem;
@@ -98,6 +95,7 @@
     <section id="document-selection">
         <h2>Choose a Document</h2>
         <select id="document-dropdown">
+            <option value="">None</option>
             <option value="Documents/Rayfield.html">Rayfield</option>
         </select>
     </section>
@@ -115,11 +113,8 @@
     </footer>
 
     <script>
-        // script.js
-
-        // Function to handle the document selection and redirect
         document.getElementById('document-dropdown').addEventListener('change', function() {
-            const selectedDocument = this.value; // Get the selected document value
+            const selectedDocument = this.value;
             if (selectedDocument) {
                 window.location.href = selectedDocument; // Redirect to the selected document
             }
