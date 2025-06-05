@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Select Document Interface">
+    <title>Select Document</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Select a Document</h1>
+        <p>Choose a document from the list below to view more details.</p>
+    </header>
+
+    <section id="document-selection">
+        <h2>Choose a Document</h2>
+        <select id="document-dropdown" onchange="window.location.href = this.value;">
+            <option value="Rayfield.html">Rayfield</option>
+        </select>
+    </section>
+
+    <section id="document-details">
+        <h2>Document Details</h2>
+        <p id="doc-description">Select a document to see its details.</p>
+        <div id="doc-content" class="hidden">
+            <!-- Content will be displayed here after selection -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Select Document Interface. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to JS file (for handling document selection) -->
+</body>
+</html>
